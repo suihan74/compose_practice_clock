@@ -49,7 +49,10 @@ fun main() {
                 val now = LocalDateTime.now()
                 currentTimeText.value = now.format(timeFormatter)
                 todayText.value = now.format(dateFormatter)
-                delay(1_000)
+
+                delay(
+                    (1_000_000_000L - now.nano) / 1_000_000L
+                )
             }
         }
 
