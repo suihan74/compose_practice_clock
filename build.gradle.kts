@@ -3,7 +3,7 @@ import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 
 plugins {
     kotlin("jvm") version "1.4.0"
-    id("org.jetbrains.compose") version "0.1.0-m1-build62"
+    id("org.jetbrains.compose") version "0.1.0-build113"
 }
 
 repositories {
@@ -27,7 +27,7 @@ compose.desktop {
 
             targetFormats(
                 TargetFormat.Dmg,
-                TargetFormat.Msi,
+                TargetFormat.Exe,
                 TargetFormat.Deb
             )
         }
