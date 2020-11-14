@@ -3,6 +3,8 @@ Compose for Desktopで遊んでみるやつ。ただのでかい時計アプリ
 
 ![ss](/screenshots/ss.png?raw=true)
 
+Windows,Mac,Linuxそれぞれの環境でそれぞれのバイナリがビルドできる(多分)
+
 ---
 
 [Compose for Desktop](https://www.jetbrains.com/lp/compose/)
