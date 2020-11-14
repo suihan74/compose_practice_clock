@@ -29,7 +29,6 @@ compose.desktop {
             targetFormats(
                 TargetFormat.Dmg,
                 TargetFormat.Msi,
-                TargetFormat.Exe,
                 TargetFormat.Deb
             )
         }
