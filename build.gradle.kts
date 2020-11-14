@@ -21,7 +21,7 @@ compose.desktop {
 
         nativeDistributions {
             packageName = "SimpleClock"
-            version = "0.1"
+            version = "0.1.1"
             description = "Compose Example App - Simple Clock"
             copyright = "© 2020 suihan. All rights reserved."
             vendor = "suihan"
