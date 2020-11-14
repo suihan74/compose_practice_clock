@@ -24,9 +24,11 @@ compose.desktop {
             version = "0.1"
             description = "Compose Example App - Simple Clock"
             copyright = "© 2020 suihan. All rights reserved."
+            vendor = "suihan"
 
             targetFormats(
                 TargetFormat.Dmg,
+                TargetFormat.Msi,
                 TargetFormat.Exe,
                 TargetFormat.Deb
             )
